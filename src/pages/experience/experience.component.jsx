@@ -18,10 +18,11 @@ const Experience=()=>{
             <Tilt options={{ max: 25 }}>
               <Card>
                 <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
+                  
                   <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" />
                 </Card.Header>
                 <Card.Body className="d-flex justify-content-center flex-column">
-                  <div>
+                 // <div>
                     <Card.Title className="text-center">Associate Software Engineer</Card.Title>
                   </div>
                   <div>
@@ -42,7 +43,7 @@ const Experience=()=>{
                         </li>
                         <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
                         to the business requirements.</li>
-                        {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
+                        
   
                       </ul>
                       

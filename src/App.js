@@ -78,13 +78,16 @@ function App() {
       </div>
     {/*Experience*/}
     <div>
-        <Container className="container-box rounded">
+     {/*  <Container className="container-box rounded">
           <Slide duration={500}>
             <hr />
 
-            <Experience />
+          <Experience />
+            
           </Slide>
         </Container>
+        */} 
+
       </div>
 
       {/*Projects - Timeline*/}
