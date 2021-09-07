@@ -23,7 +23,7 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
-
+import L_PHP from "../../assets/img/skills/PHP.png";
 export const skills = {
   frontend: [
     {
@@ -92,7 +92,6 @@ export const skills = {
       imgSrc: L_STYLED_COMPONENTS,
       skillName: "styled-components",
     },
-    
   ],
 
   backend: [
@@ -108,8 +107,6 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-    
-   
   ],
   hostingPlatforms: [
     {
@@ -138,11 +135,12 @@ export const skills = {
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
+
     {
-      link: "https://www.typescriptlang.org/",
-      imgAltText: "TypeScript",
-      imgSrc: L_TYPESCRIPT,
-      skillName: "TypeScript",
+      link: "https://www.php.net/",
+      imgAltText: "PHP",
+      imgSrc: L_PHP,
+      skillName: "PHP",
     },
     {
       link: "https://www.python.org/",
@@ -150,25 +148,13 @@ export const skills = {
       imgSrc: L_PYTHON,
       skillName: "Python",
     },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
-    },
   ],
   databases: [
     {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
-    },
-    {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
+      imgAltText: "MYSQL",
       imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
+      skillName: "MYSQL",
     },
     {
       link: "https://www.mongodb.com/",
@@ -185,4 +171,4 @@ export const skills = {
       skillName: "GIT",
     },
   ],
-}
+};
